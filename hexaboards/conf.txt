@@ -1,0 +1,10 @@
+DataFile = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\DataFile.xlsx
+URI = http://192.168.0.116:3000
+JsonEPName = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\EditName\\file.json
+JsonEPPassword = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\EditPassword\\file.json
+JsonEPEmail = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\EditEmail\\file.json
+JsonEPAll = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\EditAll\\file.json
+JsonPI = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\profileInformation\\htmlReport\\file.json
+JsonUR = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\userRegistration\\htmlReport\\file.json
+JsonLog = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\login\\htmlReport\\file.json
+JsonDel = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\userDeletion\\htmlReport\\file.json

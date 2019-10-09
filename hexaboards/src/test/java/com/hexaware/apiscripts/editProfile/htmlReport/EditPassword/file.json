@@ -1,0 +1,74 @@
+[
+  {
+    "action": "put",
+    "data": "Test1234,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Fail",
+    "request": "{\"newpass\":\"Test1234\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 does not match with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "Hexaware$,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Fail",
+    "request": "{\"newpass\":\"Hexaware$\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 does not match with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "test!ng03,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Fail",
+    "request": "{\"newpass\":\"test!ng03\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 does not match with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "Ivone#875h5y,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Fail",
+    "request": "{\"newpass\":\"Ivone#875h5y\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 does not match with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "Dani@98,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Fail",
+    "request": "{\"newpass\":\"Dani@98\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 does not match with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "M@yterios123,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Pass",
+    "request": "{\"newpass\":\"M@yterios123\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": ",Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Pass",
+    "request": "{\"newpass\":\"\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing Data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "M@pre123,Ivonne",
+    "parameters": "/api/passupd",
+    "status": "Pass",
+    "request": "{\"newpass\":\"M@pre123\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"Password updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  }
+]

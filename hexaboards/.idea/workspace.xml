@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/LoginReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/LoginReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PIReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PIReporterAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PSReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PSReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/StAdmReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/StAdmReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UMPreportC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UMPreportC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserProjectMapping/UPMScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserProjectMapping/UPMScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/execSuite/BoardPagePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/execSuite/BoardPagePet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/execSuite/StoriesAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/execSuite/StoriesAdm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-10-09T16-26-23_867-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.EditProfileScript2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.EditProfileScript2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.LoginScripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.LoginScripts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProfileInformationScripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProfileInformationScripts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProjectCreationScript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProjectCreationScript.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProjectSetupGUI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.ProjectSetupGUI.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UPMScript.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UPMScript.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UserDel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UserDel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UserRegistratio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.execSuite.UserRegistratio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/EditProfile/EditProfileScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/EditProfile/EditProfileScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/Login/LoginScripts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/Login/LoginScripts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/MembersManagement/MembersManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/MembersManagement/MembersManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/SprintAdm/SprintAdmon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/SprintAdm/SprintAdmon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserDeletion/UserDel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserDeletion/UserDel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserRegistration/UserRegistratio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserRegistration/UserRegistratio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hexaware.testscripts.execSuite" />
+      <recent name="com.hexaware.testscripts.UserRegistration" />
+      <recent name="com.hexaware.testscripts.UserProjectMapping" />
+      <recent name="com.hexaware.testscripts.ProfileInformation" />
+      <recent name="com.hexaware.testscripts.Login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile\htmlReport" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\profileInformation" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\userRegistration" />
+      <recent name="C:\Users\Training\IdeaProjects\hexaboard" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginScripts">
+    <configuration name="LoginScripts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.Login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.Login" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.Login.LoginScripts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MembersManagement.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.execSuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.execSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.execSuite.MembersManagement" />
+      <option name="METHOD_NAME" value="scenario1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectSetupGUI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.execSuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.execSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.execSuite.ProjectSetupGUI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoriesAdm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.execSuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.execSuite" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.execSuite.StoriesAdm" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistratio" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginScripts" />
+        <item itemvalue="TestNG.UserRegistratio" />
+        <item itemvalue="TestNG.StoriesAdm" />
+        <item itemvalue="TestNG.MembersManagement.scenario1" />
+        <item itemvalue="TestNG.ProjectSetupGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="" />
+      <created>1567782442915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567782442915</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new updates">
+      <created>1568411276921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568411276921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new updates">
+      <created>1568739604824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568739604824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new updates">
+      <created>1568740670569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568740670569</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new updates">
+      <created>1568742859873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568742859873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new updates">
+      <created>1568759544219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568759544219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new updates">
+      <created>1568829419268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568829419268</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new updates">
+      <created>1570575081550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570575081550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new updates">
+      <created>1570575158642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570575158642</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new updates">
+      <created>1570580266567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570580266567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new updates">
+      <created>1570638587286</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570638587286</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new updates">
+      <created>1570657224810</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570657224810</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="new updates" />
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

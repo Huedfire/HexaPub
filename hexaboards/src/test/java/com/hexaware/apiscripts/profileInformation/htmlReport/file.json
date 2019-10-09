@@ -1,0 +1,11 @@
+[
+  {
+    "action": "put",
+    "data": ",azariel",
+    "parameters": "/api/nameupd",
+    "status": "Fail",
+    "request": "{\"name\":\"\" ,\"username\":\"azariel\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing Data\"}",
+    "description": "The actual value 400 does not match with the expected result 500"
+  }
+]

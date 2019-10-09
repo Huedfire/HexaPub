@@ -1,0 +1,65 @@
+[
+  {
+    "action": "put",
+    "data": "Ivonne Contreras,ivone@hotmail.com,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Ivonne Contreras\" ,\"email\":\"ivone@hotmail.com\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": "ivone@hotmail.com,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Fail",
+    "request": "{\"name\":\"ivone@hotmail.com\" ,\"email\":\"Ivonne\" ,\"username\":\"put\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Invalid mail format\"}",
+    "description": "The actual value 400 does not match with the expected result 500"
+  },
+  {
+    "action": "put",
+    "data": "Ivonne,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Ivonne\" ,\"email\":\"Ivonne\" ,\"username\":\"put\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Invalid mail format\"}",
+    "description": "The actual value 400 does not match with the expected result 500"
+  },
+  {
+    "action": "put",
+    "data": "Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Ivonne\" ,\"email\":\"put\" ,\"username\":\"/api/allupd\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Invalid mail format\"}",
+    "description": "The actual value 400 does not match with the expected result 500"
+  },
+  {
+    "action": "put",
+    "data": "Ivonne12*,ivone@hotmail.com,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Ivonne12*\" ,\"email\":\"ivone@hotmail.com\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": "Ivonne,ivone@hotmail.com21*,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Ivonne\" ,\"email\":\"ivone@hotmail.com21*\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 does not match with the expected result 500"
+  },
+  {
+    "action": "put",
+    "data": "Ivonne$#12,ivone@hotmail.com21*,Ivonne",
+    "parameters": "/api/allupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Ivonne$#12\" ,\"email\":\"ivone@hotmail.com21*\" ,\"username\":\"Ivonne\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 does not match with the expected result 500"
+  }
+]

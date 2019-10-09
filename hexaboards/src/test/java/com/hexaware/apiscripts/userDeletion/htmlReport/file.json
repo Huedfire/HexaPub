@@ -1,0 +1,11 @@
+[
+  {
+    "action": "post",
+    "data": "Mushashos,Elmordid4s-,ProjectF",
+    "parameters": "/api/deluser",
+    "status": "Pass",
+    "request": "{\"userid\":\"22\" ,\"password\":\"Elmordid4s-\"}",
+    "response": "{\"error\":false,\"code\":201,\"message\":\"Deleted succesfully\"}",
+    "description": "The actual value 201 matches with the expected result 201"
+  }
+]

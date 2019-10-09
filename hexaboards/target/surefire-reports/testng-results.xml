@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="219953" started-at="2019-10-09T17:31:06 CDT" finished-at="2019-10-09T17:34:46 CDT">
+    <groups>
+      <group name="functest">
+        <method signature="EditProfileScript2.EditProfile()[pri:1, instance:com.hexaware.testscripts.execSuite.EditProfileScript2@3e9b1010]" name="EditProfile" class="com.hexaware.testscripts.execSuite.EditProfileScript2"/>
+        <method signature="LoginScripts.login1()[pri:0, instance:com.hexaware.testscripts.execSuite.LoginScripts@520a3426]" name="login1" class="com.hexaware.testscripts.execSuite.LoginScripts"/>
+        <method signature="ProfileInformationScripts.scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.ProfileInformationScripts@18eed359]" name="scenario1" class="com.hexaware.testscripts.execSuite.ProfileInformationScripts"/>
+        <method signature="ProjectCreationScript.scenario2()[pri:2, instance:com.hexaware.testscripts.execSuite.ProjectCreationScript@6c3708b3]" name="scenario2" class="com.hexaware.testscripts.execSuite.ProjectCreationScript"/>
+        <method signature="ProjectSetupGUI.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="scenario1" class="com.hexaware.testscripts.execSuite.ProjectSetupGUI"/>
+        <method signature="ProjectSetupGUI.scenario8()[pri:8, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="scenario8" class="com.hexaware.testscripts.execSuite.ProjectSetupGUI"/>
+        <method signature="StoriesAdm.TS_STA()[pri:0, instance:com.hexaware.testscripts.execSuite.StoriesAdm@67784306]" name="TS_STA" class="com.hexaware.testscripts.execSuite.StoriesAdm"/>
+        <method signature="UPMScript.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UPMScript@6f1fba17]" name="scenario1" class="com.hexaware.testscripts.execSuite.UPMScript"/>
+        <method signature="UserDel.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UserDel@335eadca]" name="scenario1" class="com.hexaware.testscripts.execSuite.UserDel"/>
+        <method signature="UserRegistratio.scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.UserRegistratio@6536e911]" name="scenario1" class="com.hexaware.testscripts.execSuite.UserRegistratio"/>
+      </group> <!-- functest -->
+    </groups>
+    <test name="Test" duration-ms="219953" started-at="2019-10-09T17:31:06 CDT" finished-at="2019-10-09T17:34:46 CDT">
+      <class name="com.hexaware.testscripts.execSuite.StoriesAdm">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.StoriesAdm@67784306]" name="setup" is-config="true" duration-ms="7457" started-at="2019-10-09T17:33:55 CDT" finished-at="2019-10-09T17:34:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TS_STA()[pri:0, instance:com.hexaware.testscripts.execSuite.StoriesAdm@67784306]" name="TS_STA" duration-ms="19066" started-at="2019-10-09T17:34:03 CDT" finished-at="2019-10-09T17:34:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS_STA -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.StoriesAdm@67784306]" name="tearDown" is-config="true" duration-ms="3923" started-at="2019-10-09T17:34:22 CDT" finished-at="2019-10-09T17:34:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS_STA status=SUCCESS method=StoriesAdm.TS_STA()[pri:0, instance:com.hexaware.testscripts.execSuite.StoriesAdm@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.StoriesAdm -->
+      <class name="com.hexaware.testscripts.execSuite.EditProfileScript2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.EditProfileScript2@3e9b1010]" name="setup" is-config="true" duration-ms="9533" started-at="2019-10-09T17:31:54 CDT" finished-at="2019-10-09T17:32:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EditProfile()[pri:1, instance:com.hexaware.testscripts.execSuite.EditProfileScript2@3e9b1010]" name="EditProfile" duration-ms="22416" started-at="2019-10-09T17:32:03 CDT" finished-at="2019-10-09T17:32:26 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.EditProfileScript2@3e9b1010]" name="tearDown" is-config="true" duration-ms="3851" started-at="2019-10-09T17:32:26 CDT" finished-at="2019-10-09T17:32:30 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfile status=SUCCESS method=EditProfileScript2.EditProfile()[pri:1, instance:com.hexaware.testscripts.execSuite.EditProfileScript2@3e9b1010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.EditProfileScript2 -->
+      <class name="com.hexaware.testscripts.execSuite.UPMScript">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.UPMScript@6f1fba17]" name="setup" is-config="true" duration-ms="8619" started-at="2019-10-09T17:32:48 CDT" finished-at="2019-10-09T17:32:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UPMScript@6f1fba17]" name="scenario1" duration-ms="11386" started-at="2019-10-09T17:32:56 CDT" finished-at="2019-10-09T17:33:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.UPMScript@6f1fba17]" name="tearDown" is-config="true" duration-ms="4022" started-at="2019-10-09T17:33:08 CDT" finished-at="2019-10-09T17:33:12 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=UPMScript.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UPMScript@6f1fba17] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.UPMScript -->
+      <class name="com.hexaware.testscripts.execSuite.LoginScripts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.LoginScripts@520a3426]" name="setup" is-config="true" duration-ms="10154" started-at="2019-10-09T17:31:26 CDT" finished-at="2019-10-09T17:31:36 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login1()[pri:0, instance:com.hexaware.testscripts.execSuite.LoginScripts@520a3426]" name="login1" duration-ms="2145" started-at="2019-10-09T17:31:36 CDT" finished-at="2019-10-09T17:31:39 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.LoginScripts@520a3426]" name="tearDown" is-config="true" duration-ms="1733" started-at="2019-10-09T17:31:39 CDT" finished-at="2019-10-09T17:31:40 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login1 status=SUCCESS method=LoginScripts.login1()[pri:0, instance:com.hexaware.testscripts.execSuite.LoginScripts@520a3426] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.LoginScripts -->
+      <class name="com.hexaware.testscripts.execSuite.ProjectCreationScript">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectCreationScript@6c3708b3]" name="setup" is-config="true" duration-ms="8412" started-at="2019-10-09T17:32:30 CDT" finished-at="2019-10-09T17:32:38 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario2()[pri:2, instance:com.hexaware.testscripts.execSuite.ProjectCreationScript@6c3708b3]" name="scenario2" duration-ms="5767" started-at="2019-10-09T17:32:38 CDT" finished-at="2019-10-09T17:32:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectCreationScript@6c3708b3]" name="tearDown" is-config="true" duration-ms="3839" started-at="2019-10-09T17:32:44 CDT" finished-at="2019-10-09T17:32:48 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario2 status=SUCCESS method=ProjectCreationScript.scenario2()[pri:2, instance:com.hexaware.testscripts.execSuite.ProjectCreationScript@6c3708b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.ProjectCreationScript -->
+      <class name="com.hexaware.testscripts.execSuite.UserRegistratio">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.UserRegistratio@6536e911]" name="setup" is-config="true" duration-ms="10906" started-at="2019-10-09T17:31:06 CDT" finished-at="2019-10-09T17:31:17 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.UserRegistratio@6536e911]" name="scenario1" duration-ms="4592" started-at="2019-10-09T17:31:17 CDT" finished-at="2019-10-09T17:31:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.UserRegistratio@6536e911]" name="tearDown" is-config="true" duration-ms="4502" started-at="2019-10-09T17:31:22 CDT" finished-at="2019-10-09T17:31:26 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=UserRegistratio.scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.UserRegistratio@6536e911] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.UserRegistratio -->
+      <class name="com.hexaware.testscripts.execSuite.UserDel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.UserDel@335eadca]" name="setup" is-config="true" duration-ms="7330" started-at="2019-10-09T17:34:26 CDT" finished-at="2019-10-09T17:34:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UserDel@335eadca]" name="scenario1" duration-ms="10415" started-at="2019-10-09T17:34:33 CDT" finished-at="2019-10-09T17:34:44 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="after(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.UserDel@335eadca]" name="after" is-config="true" duration-ms="2488" started-at="2019-10-09T17:34:44 CDT" finished-at="2019-10-09T17:34:46 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=UserDel.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.UserDel@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.hexaware.testscripts.execSuite.UserDel -->
+      <class name="com.hexaware.testscripts.execSuite.ProfileInformationScripts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.ProfileInformationScripts@18eed359]" name="setup" is-config="true" duration-ms="8600" started-at="2019-10-09T17:31:40 CDT" finished-at="2019-10-09T17:31:49 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.ProfileInformationScripts@18eed359]" name="scenario1" duration-ms="3044" started-at="2019-10-09T17:31:49 CDT" finished-at="2019-10-09T17:31:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.ProfileInformationScripts@18eed359]" name="tearDown" is-config="true" duration-ms="1895" started-at="2019-10-09T17:31:52 CDT" finished-at="2019-10-09T17:31:54 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=ProfileInformationScripts.scenario1()[pri:0, instance:com.hexaware.testscripts.execSuite.ProfileInformationScripts@18eed359] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.ProfileInformationScripts -->
+      <class name="com.hexaware.testscripts.execSuite.ProjectSetupGUI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="setup" is-config="true" duration-ms="8265" started-at="2019-10-09T17:33:12 CDT" finished-at="2019-10-09T17:33:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="scenario1" duration-ms="11013" started-at="2019-10-09T17:33:20 CDT" finished-at="2019-10-09T17:33:31 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="tearDown" is-config="true" duration-ms="2077" started-at="2019-10-09T17:33:31 CDT" finished-at="2019-10-09T17:33:33 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario1 status=SUCCESS method=ProjectSetupGUI.scenario1()[pri:1, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="setup" is-config="true" duration-ms="8236" started-at="2019-10-09T17:33:33 CDT" finished-at="2019-10-09T17:33:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="scenario8()[pri:8, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="scenario8" duration-ms="12132" started-at="2019-10-09T17:33:41 CDT" finished-at="2019-10-09T17:33:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario8 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6]" name="tearDown" is-config="true" duration-ms="2085" started-at="2019-10-09T17:33:53 CDT" finished-at="2019-10-09T17:33:55 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario8 status=SUCCESS method=ProjectSetupGUI.scenario8()[pri:8, instance:com.hexaware.testscripts.execSuite.ProjectSetupGUI@185d8b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hexaware.testscripts.execSuite.ProjectSetupGUI -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

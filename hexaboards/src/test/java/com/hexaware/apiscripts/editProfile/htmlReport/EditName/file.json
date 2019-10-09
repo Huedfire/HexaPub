@@ -1,0 +1,56 @@
+[
+  {
+    "action": "put",
+    "data": ",azariel",
+    "parameters": "/api/nameupd",
+    "status": "Pass",
+    "request": "{\"name\":\"\" ,\"username\":\"azariel\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing Data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "put",
+    "data": "Anahi Contreras,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Anahi Contreras\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": "hugoalejandrolopezmateoignacioavestruzySiemprequebuscoestenombreesdemasdeSiemprequebuscoestenombreesdemasdeMuchoscaracteresporesocreoquEnodebefuncionaresteesminombRefalsosuperlargoyaunpiensoquetIeneposibilidaddeseraceptadOporlaaplicacionapesardesertanLargoycasillegaralostrescientoscaracteres,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Fail",
+    "request": "{\"name\":\"hugoalejandrolopezmateoignacioavestruzySiemprequebuscoestenombreesdemasdeSiemprequebuscoestenombreesdemasdeMuchoscaracteresporesocreoquEnodebefuncionaresteesminombRefalsosuperlargoyaunpiensoquetIeneposibilidaddeseraceptadOporlaaplicacionapesardesertanLargoycasillegaralostrescientoscaracteres\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 does not match with the expected result 500"
+  },
+  {
+    "action": "put",
+    "data": "Anahi 123,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Anahi 123\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": "Anahi @ Alejandra,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Anahi @ Alejandra\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "put",
+    "data": "Anahi R#odriguez40,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Pass",
+    "request": "{\"name\":\"Anahi R#odriguez40\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"User updated\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  }
+]
