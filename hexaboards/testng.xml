@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="Test">
+        <groups>
+            <run>
+                <include name="functest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.hexaware.testscripts.execSuite.UserRegistratio"></class>
+            <class name="com.hexaware.testscripts.execSuite.LoginScripts"></class>
+            <class name="com.hexaware.testscripts.execSuite.ProfileInformationScripts"></class>
+            <class name="com.hexaware.testscripts.execSuite.EditProfileScript2"></class>
+            <class name="com.hexaware.testscripts.execSuite.ProjectCreationScript"></class>
+            <class name="com.hexaware.testscripts.execSuite.UPMScript"></class>
+            <class name="com.hexaware.testscripts.execSuite.ProjectSetupGUI"></class>
+            <class name="com.hexaware.testscripts.execSuite.UserDel"></class>
+        </classes>
+    </test>
+</suite>
+
