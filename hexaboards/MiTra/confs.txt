@@ -1,0 +1,6 @@
+DataFile = C:\\Users\\Training\\Desktop\\DataFileScripts.xlsx
+URI = http://192.168.0.116:3000
+browser = firefox
+driver = webdriver.gecko.driver
+path = c://selenium//geckodriver.exe
+implicitWaitTime = 10

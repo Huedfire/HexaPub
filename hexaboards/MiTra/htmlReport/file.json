@@ -1,0 +1,164 @@
+[
+  {
+    "action": "post",
+    "data": "test profile,test@test.com,test_1,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Fail",
+    "request": "{\"name\":\"test profile\" ,\"e_mail\":\"test@test.com\",\"username\":\"test_1\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 does not match with the expected result 201"
+  },
+  {
+    "action": "post",
+    "data": "Fernanda Rios,name5@test.com,fer12,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Fernanda Rios\" ,\"e_mail\":\"name5@test.com\",\"username\":\"fer12\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Hugo Jacobo,name41@test.com,Narrarsignificacontarhi Mejormaneradele ,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Hugo Jacobo\" ,\"e_mail\":\"name41@test.com\",\"username\":\"Narrarsignificacontarhi Mejormaneradele \",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Pedro Rosales,pedro21@hexaware.com,48045,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Fail",
+    "request": "{\"name\":\"Pedro Rosales\" ,\"e_mail\":\"pedro21@hexaware.com\",\"username\":\"48045\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 does not match with the expected result 201"
+  },
+  {
+    "action": "post",
+    "data": "Ivonne Contreras,ivonnec@gmail.com,Ivonne03-,Test1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Ivonne Contreras\" ,\"e_mail\":\"ivonnec@gmail.com\",\"username\":\"Ivonne03-\",\"password\":\"Test1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Andrea Contreras,andreac@gmail.com,andreac,Hexaware$",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Andrea Contreras\" ,\"e_mail\":\"andreac@gmail.com\",\"username\":\"andreac\",\"password\":\"Hexaware$\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Andres Rocha,andresr@gmail.com,andres_99,test!ng03",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Andres Rocha\" ,\"e_mail\":\"andresr@gmail.com\",\"username\":\"andres_99\",\"password\":\"test!ng03\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": " , , , ",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\" \" ,\"e_mail\":\" \",\"username\":\" \",\"password\":\" \"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Dania Faz,dania@gmail.com,daniaf98,Dani@98",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Dania Faz\" ,\"e_mail\":\"dania@gmail.com\",\"username\":\"daniaf98\",\"password\":\"Dani@98\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Mayte Rios,mayte@gmail.com,mayte98,M@yterios123",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Mayte Rios\" ,\"e_mail\":\"mayte@gmail.com\",\"username\":\"mayte98\",\"password\":\"M@yterios123\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "12@#$,invalidNumber@test.com,invalidNumbertest,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"12@#$\" ,\"e_mail\":\"invalidNumber@test.com\",\"username\":\"invalidNumbertest\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "UserRegistration,invalidUsername@test.com,test_1,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Fail",
+    "request": "{\"name\":\"UserRegistration\" ,\"e_mail\":\"invalidUsername@test.com\",\"username\":\"test_1\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 does not match with the expected result 409"
+  },
+  {
+    "action": "post",
+    "data": "userRegistration,invalidUsername@test.com,tester-2,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Fail",
+    "request": "{\"name\":\"userRegistration\" ,\"e_mail\":\"invalidUsername@test.com\",\"username\":\"tester-2\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 does not match with the expected result 409"
+  },
+  {
+    "action": "post",
+    "data": ",,,",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"\" ,\"e_mail\":\"\",\"username\":\"\",\"password\":\"\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "test name,testtest,tester3,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"test name\" ,\"e_mail\":\"testtest\",\"username\":\"tester3\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Andres Perales,andres@hexaware.com,andres_p,tester1",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"Andres Perales\" ,\"e_mail\":\"andres@hexaware.com\",\"username\":\"andres_p\",\"password\":\"tester1\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "N arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosniñoscómoseco nstruyen lostext osnarrativosesmed iantelalectura decuentosbienseanhis toriaspopular esleyendas defolcN arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosni,validName@test.com,tester4,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Fail",
+    "request": "{\"name\":\"N arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosniñoscómoseco nstruyen lostext osnarrativosesmed iantelalectura decuentosbienseanhis toriaspopular esleyendas defolcN arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosni\" ,\"e_mail\":\"validName@test.com\",\"username\":\"tester4\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 does not match with the expected result 201"
+  },
+  {
+    "action": "post",
+    "data": "N arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosneiñoscómoseco nstruyen lostext osnarrativosesmed iantelalectura decuentosbienseanhis toriaspopular esleyendas defolcN arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosni,invalidName@test.com,tester5,Test$1234",
+    "parameters": "/api/postuser",
+    "status": "Pass",
+    "request": "{\"name\":\"N arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosneiñoscómoseco nstruyen lostext osnarrativosesmed iantelalectura decuentosbienseanhis toriaspopular esleyendas defolcN arrar sig nifica co ntar hi storias la me jor mane radeenseñ aralosni\" ,\"e_mail\":\"invalidName@test.com\",\"username\":\"tester5\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  }
+]

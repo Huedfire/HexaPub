@@ -1,0 +1,9 @@
+port = 90
+devIp1 = 192.168.10.10
+devIp2 = 180.159.10.10
+devIp3 = 190.120.10.10
+devIp4 = 150.150.10.10
+devPort1 = 1097
+devPort2 = 80
+devPort3 = 70
+devPort4 = 90

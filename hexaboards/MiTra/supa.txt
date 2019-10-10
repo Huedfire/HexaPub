@@ -1,0 +1,103 @@
+package Login;
+
+import Framework.ExcelReader;
+import Framework.HomePage;
+import Framework.Login;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+public class LoginTestNG {
+    WebDriver driver;
+    WebElement element;
+    InputStream input;
+    Properties prop = new Properties();
+
+    String filepath;
+    String chromeprop;
+    String URI;
+
+    ExcelReader reader = new ExcelReader();
+    ArrayList<String> user;
+    String[] dataArray;
+    String username;
+    String password;
+
+
+    @BeforeTest(groups = {"functest"})
+    public void readFile() throws IOException {
+        input = new FileInputStream("C:\\Users\\Training\\Desktop\\confs.txt");
+        prop.load(input);
+        filepath = prop.getProperty("DataFile");
+        chromeprop = prop.getProperty("ChromeDriver");
+        URI = prop.getProperty("URI");
+        System.setProperty("webdriver.chrome.driver", chromeprop);
+        user = reader.readRows(filepath, 0);
+
+    }
+
+    //metodo para framework
+    public void openNavigator() {
+        ChromeOptions option = new ChromeOptions();
+        option.addArguments("--start-maximized");
+        driver = new ChromeDriver(option);
+        driver.navigate().to(URI);
+    }
+
+    public String[] turnArray(ArrayList<String> list, int index) {
+        String[] array = list.get(index).split(",");
+        return array;
+    }
+    //metodo para framework
+
+
+    @Test(groups = {"functest"})
+    public void login1() {
+
+        dataArray = turnArray(user, 1);
+        username = dataArray[0];
+        password = dataArray[1].substring(1);
+        openNavigator();
+        HomePage hp = new HomePage(driver);
+        Login lg = new Login(driver);
+
+        WebDriverWait varWat = new WebDriverWait(driver, 10);
+
+
+        element = hp.getStartedValue();
+        varWat.until(ExpectedConditions.elementToBeClickable(element));
+        element.click();
+
+
+        //press the button login
+        lg.getLogin().sendKeys(Keys.ENTER);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //element name
+        lg.getUsername().sendKeys(username);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //get password
+        lg.getPassword().sendKeys(password);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //click to login
+        lg.getloginButton().click();
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+        //  driver.close();
+
+    }
+
+
+}

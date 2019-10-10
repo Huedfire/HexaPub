@@ -1,0 +1,19 @@
+'Objects
+'----------------------------------------------------Login Objects------------------------------------------------
+browserLogin = "name:=Demo Form for practicing Selenium Automation"
+pageLogin = "title:=Demo Form for practicing Selenium Automation"
+FirstName = "name:=firstname"
+LastName = "name:=lastname"
+radioSex = "name:=sex"
+radioYears="name:=exp"
+dateSun="name:=WebEdit"
+'DateSlot= "input id:=datepicker"
+radioProfession= "name:= profession"
+profilePicture = "name:= photo"
+radioTool = "name:=tool"
+listContinents="name:=continents"
+listSeleniums="name:=selenium_commands"
+finalButton = "name:=Button"
+WCB ="name:=profession"
+
+

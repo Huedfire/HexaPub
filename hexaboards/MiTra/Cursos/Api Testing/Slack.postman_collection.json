@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "df5a1b2e-4eda-49e9-ba15-2544da5fb6ea",
+		"name": "Slack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Message to group",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "xoxp-707299948534-693755960179-707322806086-135c6f5caaaffe250ef734c8de3a6a94",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"channel\": \"CLQKZTKS8\",\r\n  \"text\": \"Hello, world :pika: Hugo the hero :ivone: \",\r\n  \"as_user\": true\r\n}"
+				},
+				"url": {
+					"raw": "https://slack.com/api/chat.postMessage",
+					"protocol": "https",
+					"host": [
+						"slack",
+						"com"
+					],
+					"path": [
+						"api",
+						"chat.postMessage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Message to private",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "xoxp-707299948534-693755960179-707322806086-135c6f5caaaffe250ef734c8de3a6a94",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"channel\": \"DLU3Z90G7\",\r\n  \"text\": \"Hello, world :pika: Hugo :pika: \",\r\n  \"as_user\": true\r\n}"
+				},
+				"url": {
+					"raw": "https://slack.com/api/chat.postMessage",
+					"protocol": "https",
+					"host": [
+						"slack",
+						"com"
+					],
+					"path": [
+						"api",
+						"chat.postMessage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

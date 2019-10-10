@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "42adf722-22ff-43cb-b6d0-629783e66234",
+		"name": "Requests 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Requests",
+			"item": [
+				{
+					"name": "Create and verify character",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "697941a4-1521-4591-b3ee-1de06d4c376a",
+								"exec": [
+									"    var jsonData=pm.response.json();",
+									"    ",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Your test name\", function() {",
+									"    pm.expect(jsonData.name).to.eql(\"Hiro the hero\");",
+									"});",
+									"",
+									"pm.environment.set(\"userId\",jsonData.id);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Hiro the hero\",\n    \"realName\": \"Hugo\",\n    \"location\": \"Magic land\",\n    \"isAlive\": true\n}"
+						},
+						"url": {
+							"raw": "{{Var2}}",
+							"host": [
+								"{{Var2}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update and verify updated",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "66d8feeb-2927-40f8-b331-1074b3c944ef",
+								"exec": [
+									"   ",
+									"        ",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"",
+									"pm.test(\"Update correct\", function () {",
+									"    pm.response.to.have.body(\"ok\");",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Hiro the hero\",\n    \"realName\": \"Hugo\",\n    \"location\": \"Death land\",\n    \"isAlive\": false\n}"
+						},
+						"url": {
+							"raw": "{{Var2}}/{{userId}}",
+							"host": [
+								"{{Var2}}"
+							],
+							"path": [
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete and verify ",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "ebc7a13f-cefb-4a2f-8d28-d8e74d58214f",
+								"exec": [
+									"        ",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"",
+									"pm.test(\"Delete correct\", function () {",
+									"    pm.response.to.have.body(\"ok\");",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{Var2}}/{{userId}}",
+							"host": [
+								"{{Var2}}"
+							],
+							"path": [
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

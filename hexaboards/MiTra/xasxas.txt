@@ -1,0 +1,51 @@
+Board Page
+
+Añadir una historia
+Añadir historia con menos de 15characteres
+Añadir historia con 1024 characteres
+Añadir historia con 1025 characteres
+
+Editar Historia
+Editar historia con menos de 15 characteres
+Editar historia con 1024 caracteres
+Editar historia con 1025 caracteres
+Editar Historia sin descripcion
+
+Mover historia de Backlog a To Do
+Mover Historia de Backlog a In Progress
+Mover historia de Backlog a Test
+Mover Historia de Backlog a Review
+Mover Historia de Backlog a Done
+
+Mover Historia de To Do a Backlog
+Mover Historia de To Do a In Progress
+Mover Historia de To Do a Test
+Mover Historia de To Do a Review
+Mover Historia de To Do a Done
+
+Mover Historia de In Progress a Backlog
+Mover Historia de In Progress a To Do
+Mover Historia de In Progress a Test
+Mover Historia de In Progress a Review
+Mover Historia de In Progress a Done
+
+Mover Historia de Test a Backlog
+Mover Historia de Test a To Do
+Mover Historia de Test a In Progress
+Mover Historia de Test a Review 
+Mover Historia de Test a Done
+
+Mover Historia de Review a Backlog
+Mover Historia de Review a To Do
+Mover Historia de Review a In Progress
+Mover Historia de Review a Test
+Mover Historia de Review a Done
+
+Mover Historia de Done a Backlog
+Mover Historia de Done a To Do
+Mover Historia de Done a In Progress
+Mover Historia de Done a Test
+Mover Historia de Done a Review
+
+End Sprint
+End Sprint and cancel

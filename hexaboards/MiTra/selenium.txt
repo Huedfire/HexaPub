@@ -1,0 +1,71 @@
+Identificar que se va a automatizar
+Seleccionar la herramienta adecuada
+escribir los test scripts
+desarrollar los test suites
+ejecutar los test scripts
+crear reporte de resultados
+identificar bugs o problemas de rendimiento
+
+Selenium 
+Es una suite de herramientas open source para automatizar pruebas sobre navegadores 
+
+Que se debe de automatizar ?
+Test cases en los que no hay cambios llamados regresion tests
+
+Components
+
+Selenium IDE
+ es un entorno de desarrollo integrado para scripts de Selenium. 
+Se implementa como una extensión de Firefox y permite grabar, editar y depurar pruebas. 
+Este IDE incluye todo el Selenium Core, que permite grabar y reproducir de forma fácil las pruebas 
+en el entorno real en el cual se ejecutarán. Se recomienda su uso para prototipos de pruebas, debido a que no es capaz de generar ciclos ni condiciones.
+
+Selenium RC Remote control
+es una herramienta para automatizar pruebas de interfaz de usuario (UI) de aplicaciones web. 
+Consta de dos componentes: a) un servidor que actúa como proxy para controlar e interactuar con un navegador web.
+ b) bibliotecas para crear programas para el servidor usando una amplia gama de lenguajes de programación. 
+Fue la herramienta original de Selenium para pruebas web pero a partir de la versión 2 fue integrado con WebDriver y se prefiere usar este último.
+
+Selenium Web driver
+también es una herramienta para automatizar pruebas UI de aplicaciones web pero implementa un enfoque más moderno
+ y estable que Selenium RC. WebDriver, a diferencia de RC no utiliza un middleware sino que controla el navegador comunicándose directamente con él.
+
+Selenium Grid
+se especializan en ejecutar múltiples pruebas a través de diferentes navegadores,
+ sistemas operativo y máquinas. Puede conectarse con Selenium Remote especificando el navegador,
+ la versión del navegador y el sistema operativo que desee. Hay dos elementos principales: hub y nodos.
+
+Locator types
+Ayuda a localizar los elementos a traves de multiples actiones que pueden manejarse por el usuario
+Encuentra y coincide los elementos de una pagina web que son necesarios para poder interactuar con ella,
+id, name, link, partiallink, tagname, classname, xpath, css selector
+
+Lenguajes
+Java, python, C#, Ruby, JS
+
+Navegadores
+Chrome, Firefox, IE, Opera con un driver, Safari
+
+Xpath relativo
+Hacer referencia al elemento al que se quiere llegar
+
+Xpath absoluto
+Utiliza la ruta completa del elemento raiz por el elemento del
+
+.Close cierra la ventana activa
+.Quit cierra todas las ventanas abiertas
+
+Implicit wait otorga un tiempo de espera para poder ejecutar acciones sobre los objetos
+Explicit wait	Afecta un solo elemento por un tiempo indicado esperando a que sea visible, sea clickeable, etc.
+
+driver.get () se usa para navegar URL particular (sitio web) y esperar hasta que se cargue la página.
+
+driver.navigate () se usa para navegar a una URL particular y no espera a que se cargue la página.
+Mantiene el historial del navegador o las cookies para navegar hacia atrás o hacia adelante.
+
+Automation
+Agilizar un proceso
+consiste en el uso de software especial (casi siempre separado del software que se prueba) 
+para controlar la ejecución de pruebas y la comparación entre los resultados obtenidos y los resultados esperados. 
+La automatización de pruebas permite incluir pruebas repetitivas y necesarias dentro de un proceso formal de pruebas 
+ya existente o bien adicionar pruebas cuya ejecución manual resultaría difícil.

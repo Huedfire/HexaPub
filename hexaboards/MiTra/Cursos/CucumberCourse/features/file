@@ -1,0 +1,19 @@
+# new feature
+# Tags: optional
+
+#Feature: A description
+
+#Scenario Outline: Perform a arithmetic operations
+
+#Given       User navigated to the online calculator
+#When        User enters <firstValue> as numeric
+#And         User clicks on the <operator> button
+#And         User Click
+#And
+#Then
+
+#Examples:
+ #   | firstValue | operator | secondValue | result  |
+  #  |   1        |    +     |       2     |   3     |
+   # |   9        |    -     |      4      |   5     |
+    #|   10       |    *     |     2       |   20    |

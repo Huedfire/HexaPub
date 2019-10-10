@@ -1,0 +1,117 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+public class OrbitzClass {
+
+    public static void main(String[] args) {
+
+        WebDriver driver;
+        WebElement elements;
+
+        System.setProperty("webdriver.chrome.driver", "c://selenium//chromedriver.exe");
+       ChromeOptions option = new ChromeOptions();
+        option.addArguments("--start-maximized");
+        driver = new ChromeDriver(option);
+        driver.manage().window().maximize();
+        WebDriverWait wait = new WebDriverWait(driver,20);
+
+        try {
+
+            driver.navigate().to("https://www.orbitz.com/");
+//page 1 send data to inputs
+
+            driver.findElement(By.id("package-origin-hp-package")).sendKeys("Monterrey, Nuevo Leon, Mexico (MTY-General Mariano Escobedo Intl.)");
+            driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
+
+            driver.findElement(By.id("package-destination-hp-package")).sendKeys("Mexico City, Distrito Federal, Mexico");
+            driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
+
+            driver.findElement(By.id("package-departing-hp-package")).sendKeys("10/30/2019");
+
+            driver.findElement(By.id("package-returning-hp-package")).sendKeys("11/02/2019");
+
+            driver.findElement(By.id("package-rooms-hp-package")).sendKeys("2");
+
+
+            driver.findElement(By.id("package-1-adults-hp-package")).sendKeys("1");
+
+            driver.findElement(By.id("package-1-children-hp-package")).sendKeys("2");
+
+            driver.findElement(By.id("package-1-age-select-1-hp-package")).sendKeys("12");
+
+            driver.findElement(By.id("package-1-age-select-2-hp-package")).sendKeys("7");
+
+
+            driver.findElement(By.id("package-2-adults-hp-package")).sendKeys("1");
+
+            driver.findElement(By.id("package-2-children-hp-package")).sendKeys("1");
+
+            driver.findElement(By.id("package-2-age-select-1-hp-package")).sendKeys("4");
+
+            driver.findElement(By.id("package-advanced-preferred-class-hp-package")).sendKeys("Economy/Coach");
+
+            ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 300)");
+
+            elements = driver.findElement(By.id("search-button-hp-package"));
+
+            elements.click();
+
+
+            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+            //Page 2
+            //click on hotel and change of window
+
+            elements = driver.findElement(By.cssSelector("#resultsContainer article:nth-child(1)"));
+            wait.until(ExpectedConditions.elementToBeClickable(elements));
+            elements.click();
+
+            String currentWindow = driver.getWindowHandle();
+            Set<String> allWindows = driver.getWindowHandles();
+            for (String window : allWindows) {
+                if (!currentWindow.equals(window)) {
+                    driver.switchTo().window(window);
+                }
+            }
+
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            //page 3
+
+            //select rooms
+
+           elements = driver.findElement(By.xpath("//*[@id=\"rooms-and-rates\"]/article[2]/div/div/div[2]/div[2]/a"));
+            wait.until(ExpectedConditions.elementToBeClickable(elements));
+            elements.click();
+
+
+
+            driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
+            //page 4
+            //select flights
+
+            wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div/button[@data-offer-index='0']")))).click();
+            wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div/button[@data-offer-index='0']")))).click();
+
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+            //page 5
+            //click on confirm
+
+            wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='FlightUDPBookNowButton1'] /button")))).click();
+
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
+}

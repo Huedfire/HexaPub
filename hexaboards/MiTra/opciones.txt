@@ -1,0 +1,141 @@
+Crear un nuevo proyecto
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Crear un nuevo proyecto con roles
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presiona el boton rol en añadir miembros
+		Ingresar un nombre de usuario 
+		Presionar el menu members 
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Crear un nuevo proyecto desde el menu izquierdo
+		Presionar el burger button ubicado a la derecha de la pantalla
+		Seleccionar New project
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Crear un nuevo proyecto con roles desde el menu izquierdo
+		Presionar el burger button ubicado a la derecha de la pantalla
+		Seleccionar New project
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presiona el boton rol en añadir miembros
+		Ingresar un nombre de usuario 
+		Presionar el menu members 
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Crear un nuevo proyecto con imagen
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar cambiar foto
+		Elegir foto y presionar aceptar
+		Presionar el boton crear
+Intentar crear un proyecto sin nombre
+		Presionar la frase new project en la pantalla blanca
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Intentar crear un proyecto con un nombre con menos caracteres de los permitidos
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Intentar crear un proyecto con un nombre con mas caracteres de los permitidos
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Intentar crear un proyecto sin descripcion
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Intentar crear un proyecto con una descripcion con menos caracteres de los permitidos
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+Intentar crear un proyecto con una descripcion con mas caracteres de los permitidos
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+
+Crear un proyecto sin una fecha de fin
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton crear
+
+Intentar crear un proyecto sin fecha de inicio
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton crear
+
+Intentar crear un proyecto con una fecha de fin anterior a la fecha de inicio
+		Presionar la frase new project en la pantalla blanca
+		Ingresar el nombre del proyecto
+		Ingresar una descripcion del proyecto
+		Presionar el boton para abrir calendario
+		Seleccionar la fecha de inicio
+		Presionar el boton de end date
+		Seleccionar la fecha de fin
+		Presionar el boton crear
+
+Intentar crear un proyecto sin ningun dato
+		Presionar la frase new project en la pantalla blanca
+		Presionar el boton crear
+
+Cancelar la creacion del proyecto
+		Presionar la frase new project en la pantalla blanca
+		Presionar el boton cerrar en la esquina de la forma
